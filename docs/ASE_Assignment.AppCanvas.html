@@ -89,7 +89,7 @@
 
 
   <h1 id="ASE_Assignment_AppCanvas" data-uid="ASE_Assignment.AppCanvas" class="text-break">
-Class AppCanvas  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class AppCanvas  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppCanvas : ICanvas</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppCanvas : IAppCanvas, ICanvas</code></pre>
   </div>
 
 
@@ -119,6 +119,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="ASE_Assignment.IAppCanvas.html">IAppCanvas</a></div>
       <div><span class="xref">ICanvas</span></div>
     </dd>
   </dl>
@@ -163,7 +164,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas__ctor" data-uid="ASE_Assignment.AppCanvas.#ctor">
   AppCanvas()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="ASE_Assignment.AppCanvas.html">AppCanvas</a>class.</p>
@@ -194,7 +195,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_PenColour" data-uid="ASE_Assignment.AppCanvas.PenColour">
   PenColour
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the color of the pen.</p>
@@ -226,7 +227,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_Xpos" data-uid="ASE_Assignment.AppCanvas.Xpos">
   Xpos
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the X position of the pen.</p>
@@ -258,7 +259,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_Ypos" data-uid="ASE_Assignment.AppCanvas.Ypos">
   Ypos
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the Y position of the pen.</p>
@@ -294,7 +295,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_Circle_System_Int32_System_Boolean_" data-uid="ASE_Assignment.AppCanvas.Circle(System.Int32,System.Boolean)">
   Circle(int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Draws a circle on the canvas.</p>
@@ -336,7 +337,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_Clear" data-uid="ASE_Assignment.AppCanvas.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Clears the canvas to orginial state.</p>
@@ -363,7 +364,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_DrawTo_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.DrawTo(System.Int32,System.Int32)">
   DrawTo(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Draws a line from the current position to the specified position.</p>
@@ -405,7 +406,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_MoveTo_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.MoveTo(System.Int32,System.Int32)">
   MoveTo(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L155"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Moves the pen to specified position without drawing on canvas.</p>
@@ -447,7 +448,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="ASE_Assignment.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)">
   Rect(int, int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Draw a rectangle on the canvas.</p>
@@ -492,7 +493,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_Reset" data-uid="ASE_Assignment.AppCanvas.Reset">
   Reset()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Resets the pen position to original coordinates 0,0.</p>
@@ -519,7 +520,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_Set_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.Set(System.Int32,System.Int32)">
   Set(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the size of the canvas.</p>
@@ -555,7 +556,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)">
   SetColour(int, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L218"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the color of the pen.</p>
@@ -600,7 +601,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_Tri_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.Tri(System.Int32,System.Int32)">
   Tri(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L233"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Draws a triangle on the canvas</p>
@@ -631,8 +632,8 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.notimplementedexception">NotImplementedException</a></dt>
-    <dd><p>Exception thrown because the method is not implemented.</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></dt>
+    <dd><p>Exception thrown when width or height is set to 0  or lower.</p>
 </dd>
   </dl>
 
@@ -642,7 +643,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_WriteText_System_String_" data-uid="ASE_Assignment.AppCanvas.WriteText(System.String)">
   WriteText(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L254"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Writes the text on the canvas.</p>
@@ -681,7 +682,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ASE_Assignment_AppCanvas_getBitmap" data-uid="ASE_Assignment.AppCanvas.getBitmap">
   getBitmap()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the bitmap of the canvas.</p>
@@ -714,7 +715,7 @@ Class AppCanvas  <a class="header-action link-secondary" title="View source" hre
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-krajess/blob/main/ASE Assignment/ASE Assignment/AppCanvas.cs/#L26" class="edit-link">Edit this page</a>
         </div>
 
 
